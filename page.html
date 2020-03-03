@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+             <script src = "runner.js"></script>
+        <link rel = "stylesheet" href = "styles1.css"
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title><Pixel Art Maker</title>
+    </head>
+    <body onload = "message()" id = "body">
+      <h1>Pixel Art Maker</h1>
+       <div id = "myform">
+          <table>
+             <tr>
+                <td>Height: </td>
+                <td><input type="number" id = "height"></td>
+                <td>px</td>
+             </tr>
+             <tr>
+                <td>Width: </td>
+                <td><input type = "number" id = "width"></td>
+                <td>px</td>
+             </tr>
+             <tr>
+               <td><input name = "Color Picker" type = "color" id = "color" ></td>
+             </tr>
+                <tr>
+                   <td><input type = "button" id = "submit" value = "Create!" onclick = "Javascript: tablecreate()"></td>
+                  
+                   <td><input type ="button" id="clear" value="Clear Grid" onclick="Javascript: cleartable()"></td>
+                </tr>
+             
+          </table>
+          &nbsp;<br />
+
+       </div>
+       <div id = "grid" style="margin: auto;">
+         
+
+       </div>
+
+       
+
+
+       
+    </body>
+</html>
